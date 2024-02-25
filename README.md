@@ -7,3 +7,14 @@ Esse relatório foi desenvolvido com a visão de auxilia-lo no processo de cria�
 ### Objetivo
 O objetivo desse relatório é compartilhar algumas das etapas na criação de uma instância EC2 na AWS, conectando-a por meio do SSH (Openssh) e em seguida, documentando o processo de criação feito.
 
+### Materiais
+- Conta AWS
+- Uso da Openssh para ter o acesso SSH
+- Interface de acesso a linha de comando
+
+### Métodos
+Prints solicitados da criação:
+- Console com a máquina criada
+
+- SSH bem sucedido
+- IP da máquina EC2 criada
