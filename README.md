@@ -11,16 +11,24 @@ O objetivo desse relatório é compartilhar algumas das etapas na criação de u
 - Conta AWS
 - Uso da Openssh para ter o acesso SSH
 - Interface de acesso a linha de comando
+- VScode
 
 ### Métodos
 Prints solicitados da criação:
 - Console com a máquina criada
+- Para essa primeira etapa, eu loguei na plataforma da AWS academy, ativei minha máquina e criei a instância EC2. Na configuração da minha instância, setei algumas confingurações, como chaves privadas, nome da instância, escolhi a AMI (Amazon Machine Image) - Ubuntu.
+
 ![alt text](console.png)
 
 - SSH bem sucedido
+- Após a instância ter sido criada com sucesso, entrei no menu da minha instância, conectar-se à distância, cliente SSH e copiei o código que inicia a instância e conecta-se a máquina pelo SSH- Openssh. Meu comando de conexão é esse: ssh -i "keypairname.pem" ubuntu@ec2-3-88-129-96.compute-1.amazonaws.com. Após eu abrir, procurar a pasta onde minhas privates keys se encontram. Sendo assim, consegui executar e me conectar à máquina.
+
 ![alt text](ssh.jpg)
 
 - IP da máquina EC2 criada
+
+- Por último, o print do IP da minha instãncia EC2. O IP pode ser visto no painel inicial das suas instâncias, ou no menu de configuração da instância. Você pode visualizar o endereço de IP público e privado. Sendo o primeiro responsável por acessar sua instância pela internet. Já o segundo, é responsável pela configuração dessa instância, por isso privada.
+
 ![alt text](ip.png)
 
 ### Resultados
