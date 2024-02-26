@@ -16,12 +16,12 @@ O objetivo desse relatório é compartilhar algumas das etapas na criação de u
 ### Métodos
 Prints solicitados da criação:
 - Console com a máquina criada
-- Para essa primeira etapa, eu loguei na plataforma da AWS academy, ativei minha máquina e criei a instância EC2. Na configuração da minha instância, setei algumas confingurações, como chaves privadas, nome da instância, escolhi a AMI (Amazon Machine Image) - Ubuntu.
+- Para essa primeira etapa, eu loguei na plataforma da AWS academy, ativei minha máquina e criei a instância EC2. Na configuração da minha instância, setei algumas confingurações, como chaves privadas, nome da instância e escolhi a AMI (Amazon Machine Image) - Ubuntu.
 
 ![alt text](console.png)
 
 - SSH bem sucedido
-- Após a instância ter sido criada com sucesso, entrei no menu da minha instância, conectar-se à distância, cliente SSH e copiei o código que inicia a instância e conecta-se a máquina pelo SSH- Openssh. Meu comando de conexão é esse: ssh -i "keypairname.pem" ubuntu@ec2-3-88-129-96.compute-1.amazonaws.com. Após eu abrir, procurar a pasta onde minhas privates keys se encontram. Sendo assim, consegui executar e me conectar à máquina.
+- Após a instância ter sido criada com sucesso, entrei no menu da minha instância, conectar-se à distância, cliente SSH e copiei o código que inicia a instância e conecta-se a máquina pelo SSH- Openssh. Meu comando de conexão é esse: ssh -i "keypairname.pem" ubuntu@ec2-3-88-129-96.compute-1.amazonaws.com. Após procurar a pasta onde minhas privates keys se encontram, executei o comando. Sendo assim, consegui executar e me conectar à máquina criada pelo SSH.
 
 ![alt text](ssh.jpg)
 
